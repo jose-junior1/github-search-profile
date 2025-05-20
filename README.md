@@ -1,12 +1,53 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🔍 GitHub Search Profile
 
-Currently, two official plugins are available:
+Uma aplicação feita em **React** que permite buscar perfis do GitHub e listar seus repositórios públicos, com informações como nome, linguagem principal e link direto.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## Expanding the ESLint configuration
+- 🔎 Buscar usuários do GitHub pelo nome de usuário
+- 📦 Listar repositórios públicos:
+  - Nome do repositório
+  - Linguagem principal
+  - Link direto para o GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Tecnologias utilizadas
+
+- [React](https://reactjs.org/)
+- HTML5
+- CSS3
+- [GitHub REST API](https://docs.github.com/pt/rest)
+
+## 💡 Como rodar o projeto localmente
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/jose-junior1/github-search-profile.git
+   ```
+
+2. Instale as dependências:  
+   ```bash
+   npm install
+   ```
+
+3. Inicie o projeto:
+   ```bash
+   npm run dev
+   ```
+
+4. Acesse no navegador:  
+   [http://localhost:5173](http://localhost:5173)
+
+---
+
+Ou veja online:  
+👉 [GitHub Perfil - Deploy Vercel](https://githubprofile-josedev.vercel.app/)
+
+---
+
+## 🙋‍♂️ Autor
+
+Desenvolvido por **José Júnior** 
+
+---
+⭐ Se curtir, deixe uma estrela no repositório!
