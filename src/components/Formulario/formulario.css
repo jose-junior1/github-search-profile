@@ -1,0 +1,51 @@
+.formulario {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.formulario.ativo {
+    max-height: 500px;
+    opacity: 1;
+    margin: 0 auto;
+    padding: 20px;
+    transform: scaleY(1);
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    max-width: 100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.aprovado,
+.reprovado {
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 22px;
+}
+
+.aprovado {
+    color: green;
+}
+
+.reprovado {
+    color: red;
+}

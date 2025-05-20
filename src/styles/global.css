@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+:root {
+    --corPrincipal: #f9ca24;
+    --corSecundaria: #111;
+}
+
+.usuarioGitHub {
+    padding: 16px;
+    text-align: center;
+}
+
+.usuarioGitHub label {
+    font-weight: bold;
+}
+
+.usuarioGitHub input {
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 16px;
+}
